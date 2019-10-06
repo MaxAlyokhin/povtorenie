@@ -137,7 +137,7 @@ function ToogleScreen() {
 				break;
 
 		}
-	}, 2350)
+	}, 2370)
 
 	// Скрываем лоадер
 	setTimeout(function() {
