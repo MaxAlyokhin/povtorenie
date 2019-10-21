@@ -18,7 +18,7 @@ const path = {
     //Брать исходники здесь:
     src: { 
       html:  'src/*.html',
-      sass:  'src/styles/*.sass',
+      sass:  'src/styles/*.*',
       js:    'src/scripts/*.js', 
       img:   'src/content/**/*.jpg',
       fonts: 'src/fonts/**/*.*'
@@ -26,7 +26,7 @@ const path = {
     //За изменением каких файлов мы хотим наблюдать:
     watch: { 
       html:  'src/*.html',
-      sass:  'src/styles/*.sass',
+      sass:  'src/styles/*.*',
       js:    'src/scripts/*.js', 
       img:   'src/content/**/*.jpg',
       fonts: 'src/fonts/**/*.*'
