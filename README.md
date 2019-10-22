@@ -1,6 +1,6 @@
 # Povtorenie
 
-## The web-portfolio of the Povtorenie streetwear brend
+## The web-portfolio of the Povtorenie streetwear brand
 
 Instruments: HTML5, CSS3, Sass, JS (jQuery), Gulp, VS Code, npm
 
@@ -9,4 +9,4 @@ Instruments: HTML5, CSS3, Sass, JS (jQuery), Gulp, VS Code, npm
 The site is a web presentation of the brand's lookbooks. By clicking on the screen you can switch to the next screen. These toggles are looped.
 
 You can check the website by clicking here:
-http://povtorenie.stranno.su
+https://povtorenie.stranno.su
