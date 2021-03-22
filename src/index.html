@@ -1,250 +1,224 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <title>Повторение</title>
 
-<head>
+    <meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+    <meta name="keywords" content="повторение, стритвир, стритвеар, бренд, fashion, улица, макс алёхин, остальные лишь жалкие подобия, оригинальность надоела, долой разнообразие, греют даже зимой" />
+    <meta name="description" content="Остальные — лишь жалкие подобия." />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="yandex-tableau-widget" content="logo=https://povtorenie.stranno.su/ui/favicons/yandex-icon.png, color=#000000" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Повторение" />
+    <meta property="og:url" content="https://povtorenie.stranno.su/" />
+    <meta property="og:title" content="Повторение" />
+    <meta property="og:description" content="Остальные — лишь жалкие подобия." />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:image" content="favicons/og.png" />
+    <meta property="og:image:width" content="740" />
+    <meta property="og:image:height" content="354" />
 
-	<title>Повторение</title>
+    <script src="js/main.min.js"></script>
 
-	<meta http-equiv="Content-Type" content="text/html;  charset=utf-8">
-	<meta name="keywords"
-		content="повторение, стритвир, стритвеар, бренд, fashion, улица, макс алёхин, остальные лишь жалкие подобия, оригинальность надоела, долой разнообразие, греют даже зимой" />
-	<meta name="description" content="Остальные — лишь жалкие подобия.">
-	<meta name="viewport" content="width=device-width">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<meta name="yandex-tableau-widget"
-		content="logo=https://povtorenie.stranno.su/ui/favicons/yandex-icon.png, color=#000000">
-	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="Повторение">
-	<meta property="og:url" content="https://povtorenie.stranno.su/">
-	<meta property="og:title" content="Повторение">
-	<meta property="og:description" content="Остальные — лишь жалкие подобия.">
-	<meta property="og:locale" content="ru_RU">
-	<meta property="og:image" content="favicons/og.png">
-	<meta property="og:image:width" content="740">
-	<meta property="og:image:height" content="354">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png" />
+    <link rel="manifest" href="favicons/manifest.json" />
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#000000" />
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
 
-	<script src="js/main.min.js"></script>
+    <script>
+      $(window).load(function () {
+        $('.loading').fadeOut()
+        $('.loading-wrapper').delay(400).fadeOut('slow')
+      })
+    </script>
+  </head>
 
-	<link rel="shortcut icon" href="favicons/favicon.ico" type="image/vnd.microsoft.icon">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-	<link rel="manifest" href="favicons/manifest.json">
-	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#000000">
-	<link rel="stylesheet" href="css/style.min.css" type="text/css">
+  <body>
+    <div class="loading-wrapper">
+      <div class="loading">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
 
-	<script>
-		$(window).load(function() {
-	
-			$(".loading").fadeOut();
-			$(".loading-wrapper").delay(400).fadeOut("slow");
-		
-		});
-	</script>
+    <div class="container" onclick="ToogleScreen();">
+      <div class="screen_one text open">НЕТ. НЕ МАТЬ УЧЕНИЯ. МАЙКИ ПО ТЫЩЕ РУБЛЕЙ.</div>
 
-</head>
+      <div class="screen_two close">
+        <picture>
+          <source srcset="content/mobile/3.1.jpg" media="(max-width: 767px)" />
+          <img src="content/3.1.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/3.2.jpg" media="(max-width: 767px)" />
+          <img src="content/3.2.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/3.jpg" media="(max-width: 767px)" />
+          <img src="content/3.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/3.3.jpg" media="(max-width: 767px)" />
+          <img src="content/3.3.jpg" alt="" />
+        </picture>
+      </div>
 
-<body>
+      <div class="screen_post-two close">
+        <picture>
+          <source srcset="content/mobile/gonch1.jpg" media="(max-width: 767px)" />
+          <img src="content/gonch1.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/gonch2.jpg" media="(max-width: 767px)" />
+          <img src="content/gonch2.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/gonch3.jpg" media="(max-width: 767px)" />
+          <img src="content/gonch3.jpg" alt="" />
+        </picture>
+      </div>
 
-	<div class="loading-wrapper">
-		<div class="loading"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-	</div>
+      <div class="screen_three text close">ОСТАЛЬНЫЕ ЛИШЬ ЖАЛКИЕ ПОДОБИЯ.</div>
 
-	<div class="container" onclick="ToogleScreen();">
-		<div class="screen_one text open">
-			НЕТ.
-			НЕ МАТЬ
-			УЧЕНИЯ.
-			МАЙКИ
-			ПО ТЫЩЕ
-			РУБЛЕЙ.
-		</div>
+      <div class="screen_pre-four close">
+        <picture>
+          <source srcset="content/mobile/this_gays1.jpg" media="(max-width: 767px)" />
+          <img src="content/this_gays1.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/this_gays2.jpg" media="(max-width: 767px)" />
+          <img src="content/this_gays2.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/this_gays3.jpg" media="(max-width: 767px)" />
+          <img src="content/this_gays3.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/this_gays4.jpg" media="(max-width: 767px)" />
+          <img src="content/this_gays4.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/this_gays5.jpg" media="(max-width: 767px)" />
+          <img src="content/this_gays5.jpg" alt="" />
+        </picture>
+      </div>
 
-		<div class="screen_two close">
-			<picture>
-				<source srcset="content/mobile/3.1.jpg" media="(max-width: 767px)">
-				<img src="content/3.1.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/3.2.jpg" media="(max-width: 767px)">
-				<img src="content/3.2.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/3.jpg" media="(max-width: 767px)">
-				<img src="content/3.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/3.3.jpg" media="(max-width: 767px)">
-				<img src="content/3.3.jpg" alt="">
-			 </picture>
-		</div>
+      <div class="screen_four close">
+        <picture>
+          <source srcset="content/mobile/2.jpg" media="(max-width: 767px)" />
+          <img src="content/2.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/2.1.jpg" media="(max-width: 767px)" />
+          <img src="content/2.1.jpg" alt="" />
+        </picture>
+      </div>
 
-		<div class="screen_post-two close">
-			<picture>
-				<source srcset="content/mobile/gonch1.jpg" media="(max-width: 767px)">
-				<img src="content/gonch1.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/gonch2.jpg" media="(max-width: 767px)">
-				<img src="content/gonch2.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/gonch3.jpg" media="(max-width: 767px)">
-				<img src="content/gonch3.jpg" alt="">
-			 </picture>
-		</div>
+      <div class="screen_five text close">ДОЛОЙ РАЗНООБРАЗИЕ.</div>
 
-		<div class="screen_three text close">
-			ОСТАЛЬНЫЕ
-			ЛИШЬ
-			ЖАЛКИЕ
-			ПОДОБИЯ.
-		</div>
+      <div class="screen_pre-six close">
+        <picture>
+          <source srcset="content/mobile/kamar.jpg" media="(max-width: 767px)" />
+          <img src="content/kamar.jpg" alt="" />
+        </picture>
+      </div>
 
-		<div class="screen_pre-four close">
-			<picture>
-				<source srcset="content/mobile/this_gays1.jpg" media="(max-width: 767px)">
-				<img src="content/this_gays1.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/this_gays2.jpg" media="(max-width: 767px)">
-				<img src="content/this_gays2.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/this_gays3.jpg" media="(max-width: 767px)">
-				<img src="content/this_gays3.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/this_gays4.jpg" media="(max-width: 767px)">
-				<img src="content/this_gays4.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/this_gays5.jpg" media="(max-width: 767px)">
-				<img src="content/this_gays5.jpg" alt="">
-			 </picture>
-		</div>
+      <div class="screen_six close">
+        <picture>
+          <source srcset="content/mobile/4.jpg" media="(max-width: 767px)" />
+          <img src="content/4.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/4.2.jpg" media="(max-width: 767px)" />
+          <img src="content/4.2.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/4.1.jpg" media="(max-width: 767px)" />
+          <img src="content/4.1.jpg" alt="" />
+        </picture>
+      </div>
 
-		<div class="screen_four close">
-			<picture>
-				<source srcset="content/mobile/2.jpg" media="(max-width: 767px)">
-				<img src="content/2.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/2.1.jpg" media="(max-width: 767px)">
-				<img src="content/2.1.jpg" alt="">
-			 </picture>
-		</div>
+      <div class="screen_seven text close">ОРИГИНАЛЬНОСТЬ НАДОЕЛА.</div>
 
-		<div class="screen_five text close">
-			ДОЛОЙ
-			РАЗНООБРАЗИЕ.
-		</div>
+      <div class="screen_eight close">
+        <picture>
+          <source srcset="content/mobile/5.jpg" media="(max-width: 767px)" />
+          <img src="content/5.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/5.1.jpg" media="(max-width: 767px)" />
+          <img src="content/5.1.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/5.2.jpg" media="(max-width: 767px)" />
+          <img src="content/5.2.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/5.3.jpg" media="(max-width: 767px)" />
+          <img src="content/5.3.jpg" alt="" />
+        </picture>
+      </div>
 
-		<div class="screen_pre-six close">
-			<picture>
-				<source srcset="content/mobile/kamar.jpg" media="(max-width: 767px)">
-				<img src="content/kamar.jpg" alt="">
-			 </picture>
-		</div>
+      <div class="screen_nine text close">НАСТОЯЩИЙ СТРИТВИР ДОЛЖЕН ПРОДАВАТЬСЯ НА УЛИЦЕ.</div>
 
-		<div class="screen_six close">
-			<picture>
-				<source srcset="content/mobile/4.jpg" media="(max-width: 767px)">
-				<img src="content/4.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/4.2.jpg" media="(max-width: 767px)">
-				<img src="content/4.2.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/4.1.jpg" media="(max-width: 767px)">
-				<img src="content/4.1.jpg" alt="">
-			 </picture>
-		</div>
+      <div class="screen_ten close">
+        <picture>
+          <source srcset="content/mobile/6.1.jpg" media="(max-width: 767px)" />
+          <img src="content/6.1.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/6.jpg" media="(max-width: 767px)" />
+          <img src="content/6.jpg" alt="" />
+        </picture>
+      </div>
 
-		<div class="screen_seven text close">
-			ОРИГИНАЛЬНОСТЬ
-			НАДОЕЛА.
-		</div>
+      <div class="screen_eleven close">
+        <video id="zima" controls="controls">
+          <source src="content/zima.webm" type="video/webm" />
+        </video>
 
-		<div class="screen_eight close">
-			<picture>
-				<source srcset="content/mobile/5.jpg" media="(max-width: 767px)">
-				<img src="content/5.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/5.1.jpg" media="(max-width: 767px)">
-				<img src="content/5.1.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/5.2.jpg" media="(max-width: 767px)">
-				<img src="content/5.2.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/5.3.jpg" media="(max-width: 767px)">
-				<img src="content/5.3.jpg" alt="">
-			 </picture>
-		</div>
+        <picture>
+          <source srcset="content/mobile/11.jpg" media="(max-width: 767px)" />
+          <img src="content/11.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/11.1.jpg" media="(max-width: 767px)" />
+          <img src="content/11.1.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/11.2.jpg" media="(max-width: 767px)" />
+          <img src="content/11.2.jpg" alt="" />
+        </picture>
+      </div>
 
-		<div class="screen_nine text close">
-			НАСТОЯЩИЙ
-			СТРИТВИР
-			ДОЛЖЕН
-			ПРОДАВАТЬСЯ
-			НА УЛИЦЕ.
-		</div>
+      <div class="screen_twelve close">
+        <video id="kachestvo" controls="controls">
+          <source src="content/kachestvo.webm" type="video/webm" />
+        </video>
 
-		<div class="screen_ten close">
-			<picture>
-				<source srcset="content/mobile/6.1.jpg" media="(max-width: 767px)">
-				<img src="content/6.1.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/6.jpg" media="(max-width: 767px)">
-				<img src="content/6.jpg" alt="">
-			 </picture>
-		</div>
-
-		<div class="screen_eleven close">
-
-			<video id="zima" controls="controls">
-				<source src="content/zima.webm" type="video/webm" />
-			</video>
-
-			<picture>
-				<source srcset="content/mobile/11.jpg" media="(max-width: 767px)">
-				<img src="content/11.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/11.1.jpg" media="(max-width: 767px)">
-				<img src="content/11.1.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/11.2.jpg" media="(max-width: 767px)">
-				<img src="content/11.2.jpg" alt="">
-			 </picture>
-
-		</div>
-
-		<div class="screen_twelve close">
-			<video id="kachestvo" controls="controls">
-				<source src="content/kachestvo.webm" type="video/webm" />
-			</video>
-
-			<picture>
-				<source srcset="content/mobile/12.jpg" media="(max-width: 767px)">
-				<img src="content/12.jpg" alt="">
-			 </picture>
-			 <picture>
-				<source srcset="content/mobile/12.1.jpg" media="(max-width: 767px)">
-				<img src="content/12.1.jpg" alt="">
-			 </picture>
-
-		</div>
-	</div>
-
-</body>
-
+        <picture>
+          <source srcset="content/mobile/12.jpg" media="(max-width: 767px)" />
+          <img src="content/12.jpg" alt="" />
+        </picture>
+        <picture>
+          <source srcset="content/mobile/12.1.jpg" media="(max-width: 767px)" />
+          <img src="content/12.1.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </body>
 </html>
